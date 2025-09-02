@@ -15,64 +15,64 @@ sqa_criteria:
     repos:
       github.com/cessda/cessda.skg-if-openapi.elsst.server git:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-cornflower-bombay.sh
-        container: qc.acc_ugly-cerulean-toucan
+        - /usr/bin/env sh .sqa/script.boozy-russet-peccary.sh
+        container: qc.acc_hasty-cobalt-kingfisher
   QC.Doc:
     repos:
       github.com/cessda/cessda.skg-if-openapi.elsst.server find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-alizarin-stoat.sh
-        container: qc.doc_zippy-khaki-ragdoll
+        - /usr/bin/env sh .sqa/script.leaky-magenta-akbash.sh
+        container: qc.doc_cheeky-malachite-ocelot
       github.com/cessda/cessda.skg-if-openapi.elsst.server git:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-eggplant-woodpecker.sh
-        container: qc.doc_pretty-dandelion-bonobo
+        - /usr/bin/env sh .sqa/script.beady-ivory-akbash.sh
+        container: qc.doc_foggy-platinum-salamander
       github.com/cessda/cessda.skg-if-openapi.elsst.server markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-cardinal-leopard.sh
-        container: qc.doc_slaphappy-wisteria-mayfly
+        - /usr/bin/env sh .sqa/script.cranky-violet-tiger.sh
+        container: qc.doc_sleepy-emerald-grouse
   QC.Lic:
     repos:
       github.com/cessda/cessda.skg-if-openapi.elsst.server licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.bluesy-persimmon-gecko.sh
-        container: qc.lic_shaggy-ivory-snail
+        - /usr/bin/env sh .sqa/script.wimpy-saffron-zebra.sh
+        container: qc.lic_scummy-lilac-yak
   QC.Met:
     repos:
       github.com/cessda/cessda.skg-if-openapi.elsst.server cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-orchid-neanderthal.sh
-        container: qc.met_tacky-cream-chinchilla
+        - /usr/bin/env sh .sqa/script.greasy-bistre-beaver.sh
+        container: qc.met_greasy-amethyst-fox
   QC.Sec:
     repos:
       github.com/cessda/cessda.skg-if-openapi.elsst.server bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-tan-russel.sh
-        container: qc.sec_flabby-jade-gibbon
+        - /usr/bin/env sh .sqa/script.surly-celadon-malamute.sh
+        container: qc.sec_scummy-razzmatazz-bee
   QC.Sty:
     repos:
       github.com/cessda/cessda.skg-if-openapi.elsst.server flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-persimmon-snake.sh
-        container: qc.sty_cranky-cerise-wasp
+        - /usr/bin/env sh .sqa/script.gamy-ultramarine-ferret.sh
+        container: qc.sty_shaky-chocolate-beagle
       github.com/cessda/cessda.skg-if-openapi.elsst.server hadolint:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-carmine-elephant.sh
-        container: qc.sty_foggy-aquamarine-chow
+        - /usr/bin/env sh .sqa/script.pokey-malachite-clam.sh
+        container: qc.sty_scanty-celadon-quokka
       github.com/cessda/cessda.skg-if-openapi.elsst.server jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.greasy-goldenrod-crane.sh
-        container: qc.sty_chummy-champagne-buffalo
+        - /usr/bin/env sh .sqa/script.grumpy-fuchsia-olm.sh
+        container: qc.sty_clammy-bronze-dog
   QC.Uni:
     repos:
       github.com/cessda/cessda.skg-if-openapi.elsst.server pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-khaki-mongoose.sh
-        container: qc.uni_lanky-pumpkin-falcon
+        - /usr/bin/env sh .sqa/script.tasty-cream-butterfly.sh
+        container: qc.uni_lousy-cinnabar-dachshund
   QC.Ver:
     repos:
       github.com/cessda/cessda.skg-if-openapi.elsst.server get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-wisteria-kingfisher.sh
-        container: qc.ver_wheezy-sapphire-kingfisher
+        - /usr/bin/env sh .sqa/script.sickly-lavender-caiman.sh
+        container: qc.ver_beady-magnolia-barnacle
 timeout: 5400
